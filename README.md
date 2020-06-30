@@ -1,5 +1,5 @@
 # QR Code Generator
-A GitHub Action that generates a QR Code and returns base64 Data 
+A GitHub Action that generates a QR Code and returns base64 Data + Ascii Representation of the QR Code
 
 ## :arrow_forward: Usage
 ```yml
@@ -25,6 +25,7 @@ Need to contain the required parameters on the workflow file.
 Need to contain the required parameters on the workflow file.
 
 - `data` The base64 encoded representation of the QR Code
+- `text` The ascii text representation of the QR Code
 
 
 ### Use a text outputted from the other action as input
