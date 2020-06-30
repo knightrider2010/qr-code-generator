@@ -11,5 +11,4 @@ jobs:
         id: qrcode
         with:
           content: https://github.com/hammadj
-      - run: echo ${{ steps.qrcode.output.data }}
-      - run: echo ${{ steps.qrcode.output.text }}
+      - run: echo "${{ steps.qrcode.outputs.text }}"
