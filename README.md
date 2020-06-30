@@ -1,4 +1,4 @@
-# QR Code Commenter
+# QR Code Generator
 A GitHub Action that generates a QR Code and returns base64 Data 
 
 ## :arrow_forward: Usage
